@@ -2,54 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Final Task</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Import Google Icon Font
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/-->
   </head>
   <body>
-    <!-- Header navigation-->
-    <nav>
 
-      <div class="nav bar">
-        <div class="logo">
-          <a href="http://brainbasket.org/"><img src="css/logos.png"/></a>
-        </div>
-        <ul>
-          <li>
-            <a href="#">ДОСЯГАЙ</a>
-          </li>
-          <li>
-            <a href="#">МАНДРУЙ</a>
-          </li>
-          <li>
-            <a href="#">ВІДВІДУЙ</a>
-          </li>
-          <li>
-            <a href="#">СЛУХАЙ</a>
-          </li>
-          <li>
-            <a href="#">
-            <!---search--->
-            </a>
-          </li>
+    <nav>
+      <div class="nav-wrapper  blue-grey black-text lighten-5 text-darken-4">
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down ">
+          <li><a href="http://terytoriya.com.ua/" class=""><img src="css/logos.png"/></a></li><!--
+        --><li><a href="#">ДОСЯГАЙ</a></li>
+          <li><a href="#">МАНДРУЙ</a></li>
+          <li><a href="#">ВІДВІДУЙ</a></li>
+          <li><a href="#">СЛУХАЙ</a></li>
+          <li class="left lm"><a href="#"><span class="glyphicon glyphicon-search " aria-hidden="true"></span></a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">ДОСЯГАЙ</a></li>
+          <li><a href="badges.html">МАНДРУЙ</a></li>
+          <li><a href="collapsible.html">ВІДВІДУЙ</a></li>
+          <li><a href="mobile.html">СЛУХАЙ</a></li>
         </ul>
       </div>
-
     </nav>
 
-    <!-- Projects -->
-    <div class="nav ">
-      <div class="headers">
-        <h1>ПРОЕКТИ</h1>
+
+    <!--Projects -->
+    <div class="project">
+      <div class="header-pr">
+        <h3>ПРОЕКТИ</h3>
       </div>
-      <div class="">
+      <div class="container">
         <div class="">
-          <a href="#"><img src="css/Notatky_mandrivnyka.png" alt=""></a>
+          <a href="#">
+            <img src="css/Notatky_mandrivnyka.png" alt="Notatky_mandrivnyka">
+          </a>
         </div>
         <div class="">
           <a href="#">Нотатки мандрівника</a>
         </div>
       </div>
-      <div class="">
+      <div class="container">
         <div class="">
           <a href="#"><img src="css/Razomfest.png" alt=""></a>
         </div>
@@ -57,7 +60,7 @@
           <a href="#">Razomfest</a>
         </div>
       </div>
-      <div class="">
+      <div class="container">
         <div class="">
           <a href="#"><img src="css/Terytoriya_market.png" alt=""></a>
         </div>
@@ -65,7 +68,7 @@
           <a href="#">Територія Маркет</a>
         </div>
       </div>
-      <div class="">
+      <div class="container">
         <div class="">
           <a href="#"><img src="css/Sprava_v_tim.png" alt=""></a>
         </div>
@@ -73,7 +76,7 @@
           <a href="#">#Справа_в_тім</a>
         </div>
       </div>
-      <div class="">
+      <div class="container">
         <div class="">
           <a href="#"><img src="css/Knygy_iz_ruk_v_ruki.png" alt=""></a>
         </div>
@@ -84,17 +87,19 @@
     </div>
 
     <!-- Останні статті -->
+
     <div class="">
       <div class="headers">
-        <a href="#"><h2>ОСТАННІ СТАТТІ</h2></a>
+        <a href="#"><h3>ОСТАННІ СТАТТІ</h3></a>
       </div>
       <div class="">
         <div class="">
           <a href="#">
-            <img width="960" height="640" src="http://terytoriya.com.ua/wp-content/uploads/2017/01/oCpzRc2XNPY.jpg" alt="">
+            <img src="http://terytoriya.com.ua/wp-content/uploads/2017/01/oCpzRc2XNPY.jpg" alt="">
           </a>
           <p>
-          <a href="#">40 ЗНАКОВИХ УКРАЇНСЬКИХ АЛЬБОМІВ 2016-ГО #2</a></p>
+            <a href="#">40 ЗНАКОВИХ УКРАЇНСЬКИХ АЛЬБОМІВ 2016-ГО #2</a>
+          </p>
         </div>
       </div>
       <div class="">
@@ -117,27 +122,31 @@
       </div>
     </div>
 
+<!---------------------------------------------------------------------------------------->
     <!-- TheBest -->
+<!---------------------------------------------------------------------------------------->
 
-    <div class="">
-      <div class="headers">
-        <h1>НАЙКРАЩЕ</h1>
-      </div>
-      <div class="">
 
-      </div>
-      <div class="">
+    <h3>НАЙКРАЩЕ</h3>
 
-      </div>
-      <div class="">
 
-      </div>
-    </div>
+
+            <div class="swiper-slide">
+              <img src="http://terytoriya.com.ua/wp-content/uploads/2016/09/Books_must_read.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://terytoriya.com.ua/wp-content/uploads/2016/09/1111472486857583-bce702f98e33.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://terytoriya.com.ua/wp-content/uploads/2016/09/Books.jpg" alt="">
+            </div>
+
+
 
     <!-- News -->
     <div class="">
       <div class="headers">
-        <h1>НОВИНИ</h1>
+        <h3>НОВИНИ</h3>
       </div>
       <div class="">
         <b>3 дні тому</b><br/>
@@ -294,6 +303,8 @@
         </p>
       </div>
     </footer>
-
-  </body>
+    <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+   </body>
 </html>
