@@ -1,8 +1,4 @@
-/*li, a {
-  color: #111;
-}*/
 body {
-  /*margin: 0 7% 0 7%;*/
   font-family: 'Roboto Condensed', sans-serif !important;
   font-size: 17px;
 }
@@ -15,7 +11,7 @@ a:focus, a:hover {
 }
 li {
   width: inherit;
-  height: 76;
+/*  height: 76;*/
 }
 a {
   text-decoration: none;
@@ -27,6 +23,7 @@ a {
   line-height: 22px;
   letter-spacing: 1px;
   display: block;
+  text-align: center;
 }
 a.description-2 {
   text-transform: uppercase;
@@ -38,6 +35,7 @@ a.description-2 {
   font-size: 23px;
   line-height: 36px;
   font-weight: 800;
+  text-align: center;
 }
 .navs {
   display: flex;
@@ -80,8 +78,9 @@ a.description-2 {
 }
 .col {
   width: 33.333%;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 0px 30px 30px;
 }
+
 .bg {
     position: absolute;
     top:0;
@@ -166,7 +165,6 @@ div, p {
 }
 .reaches {
   width: 66.6666%;
-  padding: 0 7.5px 0 7.5px;
 }
 .post {
   padding: 15px;
@@ -183,7 +181,35 @@ div, p {
   margin-bottom: 7px;
 }
 .headers {
-  margin: 0 0 35px 13px;
+  margin: 0 0 35px 30px;
+}
+.headers-left {
+  margin-left: o;
+}
+
+/*--------SliderBlock------*/
+
+.carousel-inner {
+  height: 530px;
+  width: 100%;
+  position: relative;
+}
+.item {
+  margin-right: 0;
+  height: 530px;
+  align-items: center;
+}
+.carousel-caption {
+  max-width: 470px;
+  padding-bottom: 60px;
+  align-items: center;
+/*  margin: 80px 199px;*/
+}
+
+/*--------Films and books--*/
+
+.films {
+  margin-bottom: 35px;
 }
 
 /*--------Footer-----------*/
@@ -205,14 +231,4 @@ div, p {
   margin-left: 90px;
   margin-top: 90px;
   font-size: 14px;
-}
-.films {
-  margin-bottom: 35px;
-}
-/*.carousel-inner {
-  height: 500px;
-  width: 100%;
-}*/
-.item {
-  margin-right: 0;
 }
