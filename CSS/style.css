@@ -11,7 +11,6 @@ a:focus, a:hover {
 }
 li {
   width: inherit;
-/*  height: 76;*/
 }
 a {
   text-decoration: none;
@@ -69,18 +68,9 @@ a.description-2 {
   padding-top: 101px;
   width: 100%
 }
-.project {
-  width: 25%;
-  position:
-}
-.last-news {
-  width: 75%;
-}
 .col {
-  width: 33.333%;
-  padding: 15px 0px 30px 30px;
+  padding: 15px 15px 15px 15px;
 }
-
 .bg {
     position: absolute;
     top:0;
@@ -128,7 +118,6 @@ div, p {
    -moz-background-size: cover;
    background-size: cover;
    background-position: center center;
-
 }
 .posit .background {
     display: block;
@@ -159,13 +148,6 @@ div, p {
 
 /*--------NewsBlock-----------*/
 
-.news {
-  width: 33.3333%;
-  padding: 0 7.5px 0 7.5px;
-}
-.reaches {
-  width: 66.6666%;
-}
 .post {
   padding: 15px;
   border-bottom: 1px #c2c2c2 solid;
@@ -180,11 +162,19 @@ div, p {
   letter-spacing: 1px;
   margin-bottom: 7px;
 }
-.headers {
-  margin: 0 0 35px 30px;
+.post-link {
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
 }
-.headers-left {
-  margin-left: o;
+.post-link:hover {
+  color: #6f6f6f;
+}
+.headers {
+  margin: 35px 0;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /*--------SliderBlock------*/
@@ -203,27 +193,24 @@ div, p {
   max-width: 470px;
   padding-bottom: 60px;
   align-items: center;
-/*  margin: 80px 199px;*/
 }
 
 /*--------Films and books--*/
 
 .films {
-  margin-bottom: 35px;
+  margin-bottom: 55px;
 }
 
 /*--------Footer-----------*/
 
-.nav-footer {
-  justify-content: space-between;
-}
-.nav-i a{
+.nav-i {
+  display: flex;
   font-size: 11px;
   line-height: 35px;
   font-weight: 400;
-  color: #111111;
+  color: #111;
   text-transform: uppercase;
-  margin-right: 60px;
+  justify-content: space-around;
 }
 .legelise {
   width: 80%;
